@@ -1,0 +1,5 @@
+Technologies used will be mentioned in this section. 
+
+- React
+- Tailwind CSS
+- React Router DOM
