@@ -4,3 +4,6 @@ Technologies used will be mentioned in this section.
 - Tailwind CSS
 - React Router DOM
 - Flowbite React
+- React Icons
+- Express.js
+- Nodemon
