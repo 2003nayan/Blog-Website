@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
 import express from "express";
+import dotenv from "dotenv";
+import userRoutes from "./routes/user.route.js";
 
-mongoose.connect('mongodb+srv://nayankatiyara:Nayan@2003@Cluster-Blog-website.9iulijo.mongodb.net/Blog-website?retryWrites=true&w=majority')
+dotenv.config();
+
+mongoose.connect(process.env.MONGO_URL)
     .then(() => {
         console.log("DB is connected");
     }).catch(err => {
@@ -13,3 +17,5 @@ const app = express();
 app.listen(3000, () => {
     console.log("Server is listening on port 3000");
 })
+
+app.use('/api/user', userRoutes);
