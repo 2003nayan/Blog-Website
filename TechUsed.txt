@@ -7,3 +7,4 @@ Technologies used will be mentioned in this section.
 - React Icons
 - Express.js
 - Nodemon
+- Dotenv
