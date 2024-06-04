@@ -9,3 +9,4 @@ Technologies used will be mentioned in this section.
 - Nodemon
 - Dotenv
 - bcryptjs
+- Middleware
