@@ -8,3 +8,4 @@ Technologies used will be mentioned in this section.
 - Express.js
 - Nodemon
 - Dotenv
+- bcryptjs
