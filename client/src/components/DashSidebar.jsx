@@ -111,4 +111,3 @@ export default function DashSidebar() {
     </Sidebar>
   );
 }
-// Remember to add signout functionality
