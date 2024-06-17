@@ -1,4 +1,4 @@
-/* Make sure this css properties should not collide with children class properties.  */
+/* Make sure this css property should not collide with children class properties.  */
 
 @tailwind base;
 @tailwind components;

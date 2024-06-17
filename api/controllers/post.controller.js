@@ -1,4 +1,4 @@
-// Error handler remaining
+// Error handler remaining.
 import Post from '../models/post.model.js';
 import { errorHandler } from '../utils/error.js';
 
