@@ -1,4 +1,4 @@
-// Completed delete user functions
+// Completed delete user function
 import bcryptjs from 'bcryptjs';
 import { errorHandler } from '../utils/error.js';
 import User from '../models/user.model.js';
