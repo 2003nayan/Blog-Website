@@ -64,7 +64,7 @@ export default function CommentSection({ postId }) {
         navigate("/sign-in");
         return;
       }
-    //   Error Handler here!!!
+      //   Error Handler here!!!
       const res = await fetch(`/api/comment/likeComment/${commentId}`, {
         method: "PUT",
       });
@@ -169,7 +169,7 @@ export default function CommentSection({ postId }) {
         <p className="text-sm my-5">No comments yet!</p>
       ) : (
         <>
-        {/* Comments Tag */}
+          {/* Comment Tag */}
           <div className="text-sm my-5 flex items-center gap-1">
             <p>Comments</p>
             <div className="border border-gray-400 py-1 px-2 rounded-sm">
