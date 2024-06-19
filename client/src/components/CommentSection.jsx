@@ -64,7 +64,7 @@ export default function CommentSection({ postId }) {
         navigate("/sign-in");
         return;
       }
-    //   Error Handler here
+    //   Error Handler here!!!
       const res = await fetch(`/api/comment/likeComment/${commentId}`, {
         method: "PUT",
       });
