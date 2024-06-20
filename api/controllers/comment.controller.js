@@ -1,5 +1,5 @@
 import Comment from '../models/comment.model.js';
-// 
+// 1 changed
 export const createComment = async (req, res, next) => {
     try {
         const { content, postId, userId } = req.body;
@@ -104,7 +104,7 @@ export const getcomments = async (req, res, next) => {
     try {
         const startIndex = parseInt(req.query.startIndex) || 0;
         const limit = parseInt(req.query.limit) || 9;
-        const sortDirection = req.query.sort === 'desc' ? -1 : 1;
+        // const sortDirection = req.query.sort === 'desc' ? -1 : 1;
         const comments = await Comment.find()
             .sort({ createdAt: sortDirection })
             .skip(startIndex)
