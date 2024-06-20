@@ -1,4 +1,4 @@
-// Responsive error - Footer.
+// Responsive error - Footer
 import { Button, Spinner } from "flowbite-react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
