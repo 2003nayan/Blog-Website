@@ -89,7 +89,7 @@ export default function DashSidebar() {
                   Users
                 </Sidebar.Item>
               </Link>
-              {/* Comments section */}
+              {/* Comment section */}
               <Link to="/dashboard?tab=comments">
                 <Sidebar.Item
                   active={tab === "comments"}
