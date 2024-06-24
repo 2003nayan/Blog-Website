@@ -1,5 +1,4 @@
 import Comment from '../models/comment.model.js';
-// 1 changed
 export const createComment = async (req, res, next) => {
     try {
         const { content, postId, userId } = req.body;

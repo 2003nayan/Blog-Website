@@ -1,5 +1,3 @@
-// Bug - post.route.js.
-
 import express from 'express';
 import {
   deleteUser,

@@ -1,4 +1,3 @@
-//
 import { Sidebar } from "flowbite-react";
 import {
   HiUser,
@@ -89,7 +88,6 @@ export default function DashSidebar() {
                   Users
                 </Sidebar.Item>
               </Link>
-              {/* Comment part */}
               <Link to="/dashboard?tab=comments">
                 <Sidebar.Item
                   active={tab === "comments"}
