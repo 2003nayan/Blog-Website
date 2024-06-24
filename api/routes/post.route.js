@@ -1,5 +1,3 @@
-// Check the UI once
-
 import express from 'express';
 import { verifyToken } from '../utils/verifyUser.js';
 import { create, deletepost, getposts, updatepost } from '../controllers/post.controller.js';

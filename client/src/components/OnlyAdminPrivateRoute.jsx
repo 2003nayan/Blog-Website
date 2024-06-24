@@ -1,5 +1,3 @@
-// Add it's functionality later!
-
 import { useSelector } from "react-redux";
 import { Outlet, Navigate } from "react-router-dom";
 

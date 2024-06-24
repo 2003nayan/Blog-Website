@@ -182,7 +182,7 @@ export default function DashboardComp() {
               <Link to={"/dashboard?tab=posts"}>See all</Link>
             </Button>
           </div>
-          {/* <Table hoverable>
+          <Table hoverable>
             <Table.Head>
               <Table.HeadCell>Post image</Table.HeadCell>
               <Table.HeadCell>Post Title</Table.HeadCell>
@@ -204,7 +204,7 @@ export default function DashboardComp() {
                   </Table.Row>
                 </Table.Body>
               ))}
-          </Table> */}
+          </Table>
         </div>
       </div>
     </div>
